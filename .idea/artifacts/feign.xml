@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="feign">
+    <output-path>$PROJECT_DIR$/out/artifacts/feign</output-path>
+    <root id="root">
+      <element id="archive" name="feign.jar">
+        <element id="module-output" name="feign" />
+      </element>
+    </root>
+  </artifact>
+</component>
