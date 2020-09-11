@@ -14,12 +14,15 @@ public class MyService {
     @Autowired
     StudentMapper sm;
 
+    //吃饭睡觉打豆豆
     @RequestMapping("/hello")
     public String hello(){
         Student student =new Student();
 
         return "吃饭睡觉打豆豆";
     }
+
+
 
     @RequestMapping("selectById")
     public Student selectById(Integer id){
